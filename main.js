@@ -9,6 +9,7 @@ function createWindow () {
       preload: path.join(__dirname, 'preload.js')
     },
     autoHideMenuBar: true,
+    icon: './images/icon.png'
   })
 
   win.loadFile('index.html')
